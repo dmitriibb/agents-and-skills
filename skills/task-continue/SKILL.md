@@ -1,3 +1,8 @@
+---
+name: task-continue
+description: Rehydrate a fresh agent with compact task context from local task memory files (task.notes.md and task.checkpoint.md). Use this when resuming work in a task directory to quickly recover context without rereading old conversations.
+---
+
 # task-continue
 
 ## Purpose

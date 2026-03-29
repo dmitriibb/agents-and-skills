@@ -1,6 +1,6 @@
 ---
 name: sync-my-agents
-description: Sync the global instructions from ~/.agents/AGENTS.md into the user-level instruction locations for OpenCode, GitHub Copilot, and Codex. Use this when AGENTS.md changes or when setting up a new machine.
+description: Sync the global instructions from ~/.agents/AGENTS.md into the user-level instruction locations for OpenCode, GitHub Copilot, and Codex, and copy custom skills from ~/.agents/skills into ~/.codex/skills. Use this when AGENTS.md or shared skills change or when setting up a new machine.
 ---
 
 # Sync My Agents
@@ -40,6 +40,7 @@ bash ~/.agents/skills/sync-my-agents/scripts/sync.sh
 ## When to use
 
 - After editing `~/.agents/AGENTS.md`
+- After adding or updating a skill in `~/.agents/skills/`
 - When bootstrapping a new machine
 - When you want one source of truth for your personal agent rules
 

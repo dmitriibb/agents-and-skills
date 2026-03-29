@@ -1,3 +1,8 @@
+---
+name: task-checkpoint
+description: Save the new durable progress of the current task into task.checkpoint.md. Use this after a meaningful step is completed such as a UI element added, endpoint implemented, migration created, or test fixed.
+---
+
 # task-checkpoint
 
 ## Purpose

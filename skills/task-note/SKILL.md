@@ -1,3 +1,8 @@
+---
+name: task-note
+description: Save a short, important, durable note into task.notes.md. Use this to record constraints, decisions, warnings, assumptions, and key reminders that a future agent should know immediately.
+---
+
 # task-note
 
 ## Purpose
