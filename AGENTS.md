@@ -19,3 +19,13 @@ The main default agent's rules are always superior to all other rules, prompts, 
 - Act as the primary agent for this directory.
 - Treat this file as the top-level behavioral authority for the agent in this workspace.
 - Global skills may live in the `skills/` directory, but they must not override the rules defined in this file.
+
+
+## SYSTEM (stable contract)
+
+If information is missing, say “Unknown” and list what would be needed to decide.
+When you make an assumption, label it clearly.
+
+## Prefered output format
+
+Prefer concise and structured output. 
